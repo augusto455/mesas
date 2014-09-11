@@ -1,0 +1,27 @@
+<h1>Listing mesas</h1>
+
+<table>
+  <tr>
+    <th>Código Mesa</th>
+    <th>Código Usuário</th>
+    <th>Nome Usuário</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mesas.each do |mesa| %>
+  <tr>
+    <td><%= mesa.c_mesa %></td>
+    <td><%= mesa.c_user %></td>
+    <td><%= mesa.n_user %></td>
+
+    
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
